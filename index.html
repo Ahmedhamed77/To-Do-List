@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+            integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+            crossorigin="anonymous"
+    />
+    <title>ToDoList</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">To-do</a>
+</nav>
+
+<div class="container mt-4">
+    <h4>Add Your Daily Task</h4>
+    <form>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6"><input type="text" class="form-control" placeholder="Add ToDO" id="items"></div>
+            <div class="col-lg-6 col-md-6 col-sm-6"><input type="submit" class="btn-dark btn-md rounded" value="submit" id="addBtn"></div>
+        </div>
+    </form>
+    <div class="error">
+        <p> we both know that you should add something </p>
+    </div>
+    <div id="output">
+        <ul id="tasks"></ul>
+    </div>
+
+</div>
+
+<script src="jquery/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
